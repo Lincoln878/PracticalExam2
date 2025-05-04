@@ -115,6 +115,8 @@ The following table shows the training results for different number of attention
 | 7 | 5 | 1.8089 |
 | 7 | 7 | 1.7329 |
 
+By looking at the above table, we can see that the best settings for the training is 7 layers and 7 heads, which gives the lowest validation loss.
+
 The following graph plots the graph of the above table.
 ![image](figures/Plot%20(1).jpg)
 
