@@ -1,9 +1,11 @@
 
-# tiny shakespeare, character-level
-
-Tiny shakespeare, of the good old char-rnn fame :) Treated on character-level.
-
+# Open Source C++ Codes
 After running `prepare.py`:
-
-- train.bin has 1,003,854 tokens
-- val.bin has 111,540 tokens
+```
+length of dataset in characters: 1,315,699
+all the unique characters: 
+ !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
+vocab size: 96
+train has 1,184,129 tokens
+val has 131,570 tokens
+```
